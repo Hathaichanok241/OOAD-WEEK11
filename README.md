@@ -1,6 +1,6 @@
 # OOAD-WEEK11
 ##State Diagram
-#1 
+###1 
 ```
 
 @startuml
@@ -15,7 +15,7 @@ User --> [*] : printTicket
 User --> [*] : returnmoney
 @enduml
 ```
-#2
+###2
 ```
 
 @startuml
@@ -30,7 +30,7 @@ user --> [*] : returnclothes
 user --> [*] : returncoin()
 @enduml 
 ```
-#3
+###3
 ```@startuml
 
 [*] -> user 
@@ -44,7 +44,7 @@ MachineCheckIDCar -down-> Display : totalcharges
 @enduml 
 
 ```
-#4
+###4
 ``` @startuml
 [*] -> User 
 database -> bank : senttotalcharges
@@ -55,7 +55,7 @@ banksystem -up-> User : SentSMS
 User -> [*] : SentSMS
 @enduml
 ```
-#5
+###5
 ```@startuml
 [*] -> user 
 user -up-> LoginPage : InsertNameAndPass
