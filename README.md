@@ -32,6 +32,7 @@ user --> [*] : returnclothes
 user --> [*] : returncoin()
 @enduml 
 ```
+<img src = "https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.2.png?raw=true">
 ###3
 ```@startuml
 
@@ -46,6 +47,7 @@ MachineCheckIDCar -down-> Display : totalcharges
 @enduml 
 
 ```
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.3.png?raw=true">
 ###4
 ``` @startuml
 [*] -> User 
@@ -57,6 +59,7 @@ banksystem -up-> User : SentSMS
 User -> [*] : SentSMS
 @enduml
 ```
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.4.png?raw=true">
 ###5
 ```@startuml
 [*] -> user 
@@ -68,6 +71,7 @@ user -> [*] : enterpage
 user -> [*] : SHowIncorrect
 @enduml
 ```
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.5.png?raw=true">
 ##Activity Diagram
 ###1
 ```@startuml
@@ -85,7 +89,7 @@ else
 
 @enduml
 ```
-
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.6.png?raw=true">
 ###2
 ```
 @startuml
@@ -103,6 +107,7 @@ if "money=20" then
 @enduml 
 
 ```
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.7.png?raw=true">
 ###3
 ```
 @startuml
@@ -125,6 +130,7 @@ if "money>totalcharges" then
 
 @enduml 
 ```
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.8.png?raw=true">
 ###4
 ```
 
@@ -143,6 +149,7 @@ if "money>totalcharges" then
 
 @enduml
 ```
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.9.png?raw=true">
 ###5
 ```@startuml
 (*) -> user 
@@ -158,3 +165,4 @@ if "CheckNameandPass" then
 
 @enduml
 ```
+<img src ="https://github.com/Hathaichanok241/OOAD-WEEK11/blob/master/homework/11.10.png?raw=true">
